@@ -1,0 +1,35 @@
+{
+  "name": "orange-arm-server",
+  "version": "0.1.0",
+  "description": "The Orange Arm Project Back-End Server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "backpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+  ],
+  "author": "Amirali Ahmadi",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "backpack-core": "^0.7.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "clipboardy": "^1.2.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "persianize": "^2.0.0"
+  }
+}
