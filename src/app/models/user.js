@@ -2,7 +2,6 @@ import mongoose from 'mongoose';
 let Schema = mongoose.Schema;
 
 let UserSchema = new Schema({
-    type: {type: Number, default: 0, max:8},
 
     firstName: {type: String, required: true},
     lastName: {type: String, required: true},
